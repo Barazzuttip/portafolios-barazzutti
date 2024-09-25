@@ -119,9 +119,9 @@ body {
 }
 
 .carousel-caption {
-  background-color: rgba(21, 21, 21, 0.7);
+  background-color: rgba(21, 21, 21, 0.8);
   border-radius: 15px;
-  transition: transform 0.7s ease;
+  transition: transform 0.7s ease, box-shadow 1s ease;
 }
 .carousel-caption a {
   text-decoration: underline;
@@ -129,6 +129,7 @@ body {
 }
 .carousel-caption:hover {
   transform: scale(1.05, 1.05);
+  box-shadow: 6px 6px 1px #000000;
 }
 
 .cards {
@@ -137,10 +138,10 @@ body {
   align-items: center;
 }
 
-@media only screen and (max-width: 870px) {
+@media only screen and (max-width: 530px) {
   body {
     background-image: url(../assets/portafolios-bg-mbl.png);
-    background-size: contain;
+    background-size: cover;
     background-position: top center;
     background-repeat: no-repeat;
   }
@@ -151,6 +152,70 @@ body {
   .grid-div2 {
     display: flex;
     flex-direction: column;
+  }
+  img {
+    margin: 0;
+  }
+  .txt {
+    padding: 5px;
+    border-radius: 10px;
+    color: #FFE4ED;
+    font-family: "textf";
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: rgba(50, 50, 50, 0.8);
+    border: 2px solid #FEACC6;
+    /*estilo textos planos*/
+  }
+  .txt li {
+    margin: 0px;
+  }
+  .subt {
+    color: #FEACC6;
+    width: 50%;
+    background-color: rgba(50, 50, 50, 0.6);
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 4px 4px 2px #000000;
+    font-size: 24px;
+    font-family: "subtf";
+    margin-top: 10px;
+    margin-left: 10px;
+    /*estilo h2*/
+  }
+  .img-inicial {
+    display: flex;
+    align-items: center;
+    justify-content: center !important;
+  }
+  .img-inicial img {
+    width: 50%;
+    margin-top: 20px;
+    margin-right: 20px;
+    /*estilo imagen redonda*/
+  }
+}
+@media only screen and (min-width: 530px) and (max-width: 1090px) {
+  body {
+    background-size: cover;
+  }
+  .grid-div1 {
+    display: flex !important;
+    flex-direction: column;
+  }
+  .grid-div2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+  }
+  .texto-inicial {
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    text-align: center;
   }
   img {
     margin: 0;

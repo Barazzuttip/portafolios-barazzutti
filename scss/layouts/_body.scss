@@ -101,14 +101,17 @@ body {
     border-radius: 15px;
 }
 .carousel-caption {
-    background-color: rgba($color: #151515, $alpha: 0.7);
+    background-color: rgba($color: #151515, $alpha: 0.8);
     border-radius: 15px;
-    transition: transform 0.7s ease;
+    
+    transition: transform 0.7s ease, box-shadow 1s ease;
     a {
         text-decoration: underline;
         color: #FEACC6;
     }
     &:hover {
         transform: scale(1.05,1.05);
+        box-shadow: 
+        6px 6px 1px #000000;
     }
 }
