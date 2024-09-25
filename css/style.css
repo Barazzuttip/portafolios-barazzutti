@@ -192,8 +192,8 @@ body {
   }
   .img-inicial img {
     width: 50%;
-    margin-top: 30px;
-    margin-right: 30px;
+    margin-top: 20px;
+    margin-right: 20px;
     /*estilo imagen redonda*/
   }
 }
