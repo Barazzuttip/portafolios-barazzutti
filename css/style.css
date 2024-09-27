@@ -25,7 +25,7 @@ body {
 .grid-main {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 0.5fr 1fr;
+  grid-template-rows: 0.5fr 0.2fr 0.5fr;
   /*primer div*/
   /*2do div*/
 }
@@ -72,6 +72,7 @@ body {
   align-items: center;
   justify-content: start;
   max-width: 100%;
+  height: auto;
 }
 
 .txt {
@@ -123,7 +124,7 @@ body {
   border-radius: 15px;
   transition: transform 0.7s ease, box-shadow 1s ease;
 }
-.carousel-caption a {
+.carousel-caption a, .carousel-caption h5 {
   text-decoration: underline;
   color: #FEACC6;
 }
