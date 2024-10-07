@@ -43,7 +43,7 @@ body {
   justify-content: space-between;
 }
 .grid-main .grid-div1 .texto-inicial .titulo {
-  color: #FEACC6;
+  color: #8AF927;
   font-family: "titlef";
   font-size: 48px;
   margin-top: 30px;
@@ -85,7 +85,7 @@ body {
   margin-top: 30px;
   margin-left: 30px;
   background-color: rgba(50, 50, 50, 0.8);
-  border: 2px solid #FEACC6;
+  border: 2px solid #8AF927;
   /*estilo textos planos*/
 }
 .txt li {
@@ -93,7 +93,7 @@ body {
 }
 
 .subt {
-  color: #FEACC6;
+  color: #8AF927;
   background-color: rgba(50, 50, 50, 0.6);
   padding: 10px;
   display: flex;
@@ -110,7 +110,7 @@ body {
 .carousel-pos {
   display: flex;
   width: 70%;
-  border: 4px solid #FEACc6;
+  border: 4px solid #8AF927;
   border-radius: 15px;
   box-shadow: 5px 5px 2px #000000;
 }
@@ -126,11 +126,11 @@ body {
 }
 .carousel-caption a, .carousel-caption h5 {
   text-decoration: underline;
-  color: #FEACC6;
+  color: #8AF927;
 }
 .carousel-caption:hover {
   transform: scale(1.05, 1.05);
-  box-shadow: 6px 6px 1px #000000;
+  box-shadow: 1px 0px 6px #8AF927, 0px 1px 6px #8AF927;
 }
 
 .cards {
