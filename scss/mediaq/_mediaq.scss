@@ -1,6 +1,6 @@
 @media only screen and (max-width: 530px) { 
     body {
-        background-image: url(../assets/portafolios-bg-mbl.png);
+       // background-image: url(../assets/portafolios-bg-mbl.png);
         background-size: cover;
         background-position: top center;
         background-repeat: no-repeat;
@@ -8,6 +8,9 @@
     .grid-div1 {
         display: flex !important;
         flex-direction: column;
+        .titulo{
+            background-color: rgba($color: #323232, $alpha: 0.6);
+        }
     }
     .grid-div2 {
         display: flex;
@@ -22,6 +25,7 @@
     .txt{
         padding: 5px;
         border-radius: 10px;
+        width: 80%;
         li {
             margin: 0px;
         }
@@ -31,11 +35,13 @@
         margin-top: 10px;
         margin-left: 10px;
         background-color: rgba($color: #323232, $alpha: 0.8);
-        border: 2px solid #FEACC6;
+        box-shadow: 
+        2px 2px 6px #8AF927,
+        -2px -2px 6px #8AF927;
         /*estilo textos planos*/
     }
     .subt {
-        color: #FEACC6;
+        color: #8AF927;
         width: 50%;
         background-color: rgba($color: #323232, $alpha: 0.6);
         padding: 5px;
@@ -77,6 +83,7 @@
         align-items: center !important;
     }
     .texto-inicial{
+        
         display: flex;
         flex-direction: column;
         align-items: center !important;
@@ -97,11 +104,11 @@
         margin-top: 10px;
         margin-left: 10px;
         background-color: rgba($color: #323232, $alpha: 0.8);
-        border: 2px solid #FEACC6;
+        border: 2px solid #8AF927;
         /*estilo textos planos*/
     }
     .subt {
-        color: #FEACC6;
+        color: #8AF927;
         width: 50%;
         background-color: rgba($color: #323232, $alpha: 0.6);
         padding: 5px;
