@@ -16,9 +16,9 @@
   src: url("../assets/Metrophobic-Regular.ttf");
 }
 body {
-  background-image: url(../assets/portafolio-bg-dsktop.png);
+  background-image: url("../../assets/bg-gif4.gif");
   background-position: initial;
-  background-size: contain;
+  background-size: cover;
 }
 
 .grid-main {
