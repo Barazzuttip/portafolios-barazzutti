@@ -190,6 +190,24 @@ body {
   margin-right: 10px;
 }
 
+.txt-button {
+  font-family: "subtf";
+  font-size: 24px;
+  background-color: transparent;
+  box-shadow: 2px 2px 4px #8AF927, -2px 2px 4px #8AF927, 2px -2px 4px #8AF927, -2px -2px 4px #8AF927;
+}
+.txt-button:hover {
+  box-shadow: 2px 2px 4px #FFE4ED, -2px 2px 4px #FFE4ED, 2px -2px 4px #FFE4ED, -2px -2px 4px #FFE4ED;
+}
+.txt-button:hover a {
+  color: #8AF927;
+}
+.txt-button .link-button {
+  color: #FFE4ED;
+  text-decoration: none;
+  margin: 5px;
+}
+
 .cards {
   display: flex;
   flex-direction: column;
