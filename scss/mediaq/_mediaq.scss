@@ -1,45 +1,87 @@
-@media only screen and (max-width: 530px) { 
+@media only screen and (max-width: 530px) {
     body {
-       // background-image: url(../assets/portafolios-bg-mbl.png);
+        // background-image: url(../assets/portafolios-bg-mbl.png);
         background-size: cover;
         background-position: top center;
         background-repeat: no-repeat;
     }
+
     .grid-div1 {
         display: flex !important;
         flex-direction: column;
-        .titulo{
+        align-items: center;
+        margin: 0 !important;
+
+        .titulo {
+            text-align: center;
+            margin: 0 !important;
             background-color: rgba($color: #323232, $alpha: 0.6);
         }
     }
+
+    .footer-format {
+        margin: 0px !important;
+        justify-content: space-around;
+        
+        .footer-title {
+            font-size: 24px !important;
+        }
+
+        .footer-izq {
+            margin: 0;
+            margin-right: 50px;
+            .footer-list {
+                font-size: 12px;
+            }
+
+            img {
+                width: 15% !important;
+            }
+        }
+
+        .footer-img {
+            margin-left: 50px;
+            img {
+                width: 75%;
+            }
+        }
+        .footer-der {
+            display: none;
+        }
+
+    }
+
     .grid-div2 {
         display: flex;
         flex-direction: column;
     }
-    .grid-div3{
 
-    }
+    .grid-div3 {}
+
     img {
         margin: 0;
     }
-    .txt{
+
+    .txt {
         padding: 5px;
         border-radius: 10px;
         width: 80%;
+
         li {
             margin: 0px;
         }
+
         color: #FFE4ED;
         font-family: 'textf';
         font-size: 14px;
         margin-top: 10px;
         margin-left: 10px;
         background-color: rgba($color: #323232, $alpha: 0.8);
-        box-shadow: 
-        2px 2px 6px #8AF927,
+        box-shadow: 2px 2px 6px #8AF927,
         -2px -2px 6px #8AF927;
         /*estilo textos planos*/
     }
+
     .subt {
         color: #8AF927;
         width: 50%;
@@ -48,18 +90,20 @@
         display: flex;
         justify-content: center;
         border-radius: 10px;
-        box-shadow: 
-        4px 4px 2px #000000;
+        box-shadow:
+            4px 4px 2px #000000;
         font-size: 24px;
         font-family: 'subtf';
         margin-top: 10px;
         margin-left: 10px;
         /*estilo h2*/
     }
-    .img-inicial{
+
+    .img-inicial {
         display: flex;
         align-items: center;
         justify-content: center !important;
+
         img {
             width: 50%;
             margin-top: 20px;
@@ -73,31 +117,38 @@
     body {
         background-size: cover;
     }
+
     .grid-div1 {
         display: flex !important;
         flex-direction: column;
     }
+
     .grid-div2 {
         display: flex;
         flex-direction: column;
         align-items: center !important;
     }
-    .texto-inicial{
-        
+
+    .texto-inicial {
+
         display: flex;
         flex-direction: column;
         align-items: center !important;
         text-align: center;
-    }  
+    }
+
     img {
         margin: 0;
     }
-    .txt{
+
+    .txt {
         padding: 5px;
         border-radius: 10px;
+
         li {
             margin: 0px;
         }
+
         color: #FFE4ED;
         font-family: 'textf';
         font-size: 14px;
@@ -107,6 +158,7 @@
         border: 2px solid #8AF927;
         /*estilo textos planos*/
     }
+
     .subt {
         color: #8AF927;
         width: 50%;
@@ -115,18 +167,20 @@
         display: flex;
         justify-content: center;
         border-radius: 10px;
-        box-shadow: 
-        4px 4px 2px #000000;
+        box-shadow:
+            4px 4px 2px #000000;
         font-size: 24px;
         font-family: 'subtf';
         margin-top: 10px;
         margin-left: 10px;
         /*estilo h2*/
     }
-    .img-inicial{
+
+    .img-inicial {
         display: flex;
         align-items: center;
         justify-content: center !important;
+
         img {
             width: 50%;
             margin-top: 20px;
